@@ -1,0 +1,24 @@
+{
+  "quality": [
+    {
+      "name": "masterpiece",
+      "info": "傑作"
+    },
+    {
+      "name": "best quality",
+      "info": "最高品質"
+    },
+    {
+      "name": "high quality",
+      "info": "高品質"
+    },
+    {
+      "name": "exquisite",
+      "info": "この上なく素晴らしい"
+    },
+    {
+      "name": "beautiful",
+      "info": "美しい"
+    }
+  ]
+}
