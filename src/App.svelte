@@ -1,48 +1,43 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
-  import TailwindCSS from './TailwindCSS.svelte'
+  import topBanar from "./assets/star-banar.png";
+  import bottomBanar from "./assets/nature-banar.png";
+  import contents from "./assets/content.json";
+  import { Navbar, Accordion, AccordionItem, Row } from "sveltestrap";
+  import CopyableText from "./lib/CopyableText.svelte";
 </script>
-<TailwindCSS />
+
+<header>
+  <Navbar style="background-image: url({topBanar})">
+    <h1 class="text-light">Stable Diffusion Prompts</h1>
+  </Navbar>
+</header>
+
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+  <Accordion stayOpen>
+    {#each Object.keys(contents) as key}
+      <AccordionItem header={key}>
+        {#each contents[key] as prompt, index}
+          <Row
+            class="border-top align-items-center {contents[key].length - 1 ===
+            index
+              ? 'border-bottom'
+              : ''}"
+            style="border-collapse:collapse"
+          >
+            <CopyableText {...prompt} />
+          </Row>
+        {/each}
+      </AccordionItem>
+    {/each}
+  </Accordion>
 </main>
 
+<footer>
+  <Navbar
+    class="fixed-bottom pb-5"
+    style="background-image: url({bottomBanar})"
+  />
+</footer>
+
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
 </style>
