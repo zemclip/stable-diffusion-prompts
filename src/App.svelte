@@ -40,8 +40,5 @@
   />
 </footer>
 
-<style scoped>
-  button.accordion-button {
-    font-weight: 500;
-  }
+<style>
 </style>
