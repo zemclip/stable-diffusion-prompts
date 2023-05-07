@@ -192,5 +192,249 @@
       "name": "glowing",
       "info": "被写体自体が輝くような照明"
     }
+  ],
+  "hair style": [
+    {
+      "name": "very shotr hair",
+      "info": "とても短い髪の毛。耳よりちょっと下くらいの長さ"
+    },
+    {
+      "name": "shotr hair",
+      "info": "短い髪の毛。顎より少し上くらいの長さ"
+    },
+    {
+      "name": "medium hair",
+      "info": "普通の長さの髪の毛。肩にかかる程度の長さ"
+    },
+    {
+      "name": "long hair",
+      "info": "長い髪の毛。腰にかかる程度の長さ"
+    },
+    {
+      "name": "very long hair",
+      "info": "とても長い髪の毛。お尻より下まで行く長さ"
+    },
+    {
+      "name": " hair",
+      "info": "(任意の色) hair。髪の毛の色を指定できる"
+    },
+    {
+      "name": "wavy hair",
+      "info": "髪の毛を波打たせた髪型。ゆるふわ"
+    },
+    {
+      "name": "shaggy hair",
+      "info": "かなりゆるくウェーブした髪型"
+    },
+    {
+      "name": "messy hair",
+      "info": "ゆるくウェーブした髪型"
+    },
+    {
+      "name": "crazy hair",
+      "info": "つよめにウェーブした髪型"
+    },
+    {
+      "name": "long ringlets",
+      "info": "かなりウェーブした髪型"
+    },
+    {
+      "name": "curly hair",
+      "info": "髪の毛をくるくる回転させた髪型"
+    },
+    {
+      "name": "spiral hair",
+      "info": "ポニーテールのテールがゆるいドリルになっている髪型"
+    },
+    {
+      "name": "full hair",
+      "info": "ややウェーブしたロングヘア"
+    },
+    {
+      "name": "straight hair",
+      "info": "毛先までまっすぐのロングヘア"
+    },
+    {
+      "name": "braided hair",
+      "info": "三つ編み。"
+    },
+    {
+      "name": "curling iron hair",
+      "info": "くっきりと横回転させた髪型。ひとまとまりではなくばらついている"
+    },
+    {
+      "name": "hime cut",
+      "info": "前髪ぱっつんのロングヘア"
+    },
+    {
+      "name": "sock bun",
+      "info": "高めの位置のお団子ヘア"
+    },
+    {
+      "name": "hair buns",
+      "info": "お団子ヘア"
+    },
+    {
+      "name": "updo hair",
+      "info": "頭の低い位置でまとめたお花っぽい髪型"
+    },
+    {
+      "name": "punk hair",
+      "info": "髪型や髪色がやんちゃな感じになる"
+    },
+    {
+      "name": "slicked back hair",
+      "info": "ハーフバックの髪型"
+    },
+    {
+      "name": "royal hair",
+      "info": "高貴な感じの髪型。だいたいティアラがついてくる"
+    },
+    {
+      "name": "ponytail",
+      "info": "ポニーテール"
+    },
+    {
+      "name": "wild hair",
+      "info": "ボリューミーで野性味のある髪型"
+    },
+    {
+      "name": "bob",
+      "info": "顎のあたりで切りそろえ、内側にカールした髪型"
+    },
+    {
+      "name": "floating hair",
+      "info": "風に舞うような髪型"
+    },
+    {
+      "name": "fishtail braid",
+      "info": "魚の骨のような編み込みの髪型"
+    },
+    {
+      "name": "shaved sides",
+      "info": "片側を剃り上げたような髪型"
+    },
+    {
+      "name": "pompadour",
+      "info": "おでこから前に突き出すような髪型"
+    }
+  ],
+  "facial expression": [
+    {
+      "name": "smile",
+      "info": "微笑み"
+    },
+    {
+      "name": "laugh",
+      "info": "笑う。smileよりも楽しそうな感じ"
+    },
+    {
+      "name": "great joy",
+      "info": "大喜び"
+    },
+    {
+      "name": "cheerful",
+      "info": "元気のいい表情"
+    },
+    {
+      "name": "angry",
+      "info": "怒った表情"
+    },
+    {
+      "name": "frown",
+      "info": "しかめ面"
+    },
+    {
+      "name": "furious",
+      "info": "イライラした"
+    },
+    {
+      "name": "smug",
+      "info": "うぬぼれた勝気な表情"
+    },
+    {
+      "name": "grin",
+      "info": "にやにや歯を見せて笑う表情。かなり効く"
+    },
+    {
+      "name": "smirk",
+      "info": "にやにや薄ら笑いをする"
+    },
+    {
+      "name": "scared",
+      "info": "怯えた"
+    },
+    {
+      "name": "furrowed brow",
+      "info": "しかめ面。眉と口元が微妙に変わる"
+    },
+    {
+      "name": "uneasiness",
+      "info": "不安や心配でそわそわする"
+    },
+    {
+      "name": "sad",
+      "info": "悲しい表情"
+    },
+    {
+      "name": "gloomy",
+      "info": "陰鬱な表情"
+    },
+    {
+      "name": "cry",
+      "info": "泣き顔"
+    },
+    {
+      "name": "tearful",
+      "info": "泣き顔"
+    },
+    {
+      "name": "surprised",
+      "info": "驚きの表情"
+    },
+    {
+      "name": "disconcerted",
+      "info": "驚いてむっとした表情"
+    },
+    {
+      "name": "serious",
+      "info": "真剣な表情"
+    },
+    {
+      "name": "tired",
+      "info": "疲れた表情"
+    },
+    {
+      "name": "sleepy",
+      "info": "眠たげな表情"
+    },
+    {
+      "name": "sleepy-eyed",
+      "info": "寝ぼけ眼"
+    },
+    {
+      "name": "drunk",
+      "info": "酔っぱらった表情"
+    },
+    {
+      "name": "stick out tongue",
+      "info": "舌を出す"
+    },
+    {
+      "name": "saliva",
+      "info": "唾液"
+    },
+    {
+      "name": "nose blush",
+      "info": "赤面する"
+    },
+    {
+      "name": "ahegao",
+      "info": "あへがお"
+    },
+    {
+      "name": "rolling eyes",
+      "info": "焦点の合わない目"
+    }
   ]
 }
