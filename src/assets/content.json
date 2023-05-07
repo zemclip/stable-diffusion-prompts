@@ -1,8 +1,12 @@
 {
-  "quality": [
+  "image quality": [
     {
       "name": "masterpiece",
       "info": "傑作"
+    },
+    {
+      "name": "ultra-detailed",
+      "info": "超詳細"
     },
     {
       "name": "best quality",
@@ -19,6 +23,174 @@
     {
       "name": "beautiful",
       "info": "美しい"
+    },
+    {
+      "name": "4k",
+      "info": "4K画像風味"
+    },
+    {
+      "name": "8k",
+      "info": "8K画像風味"
+    },
+    {
+      "name": "16k",
+      "info": "16K画像風味"
+    },
+    {
+      "name": "highres",
+      "info": "ハイレゾ画像風味"
+    },
+    {
+      "name": "absurdres",
+      "info": "とても高解像度"
+    }
+  ],
+  "paint style": [
+    {
+      "name": "oil painting",
+      "info": "油絵"
+    },
+    {
+      "name": "watercolor painting",
+      "info": "水彩画"
+    },
+    {
+      "name": "comic",
+      "info": "漫画"
+    },
+    {
+      "name": "low poly",
+      "info": "ローポリゴン"
+    },
+    {
+      "name": "line art",
+      "info": "線画"
+    },
+    {
+      "name": "craft clay",
+      "info": "粘土"
+    },
+    {
+      "name": "3d model",
+      "info": "3Dモデル"
+    },
+    {
+      "name": "pixel art",
+      "info": "ドット絵"
+    }
+  ],
+  "camera potision": [
+    {
+      "name": "from above",
+      "info": "上からの画角"
+    },
+    {
+      "name": "dutch angle",
+      "info": "カメラを傾けた画角"
+    },
+    {
+      "name": "from below",
+      "info": "下からの画角"
+    },
+    {
+      "name": "from side",
+      "info": "横からの画角"
+    },
+    {
+      "name": "from behind",
+      "info": "後ろからの画角"
+    },
+    {
+      "name": "dynamic angle",
+      "info": "動的なアングル"
+    },
+    {
+      "name": "upside-down",
+      "info": "上下逆さま"
+    },
+    {
+      "name": "wide shot",
+      "info": "遠距離から"
+    },
+    {
+      "name": "very wide shot",
+      "info": "超遠距離から"
+    }
+  ],
+  "camera focus": [
+    {
+      "name": "close up",
+      "info": "目や顔のアップ"
+    },
+    {
+      "name": "potrait",
+      "info": "肩から上のアップ"
+    },
+    {
+      "name": "upper body",
+      "info": "胸から上"
+    },
+    {
+      "name": "cowboy shot",
+      "info": "太ももから頭まで"
+    },
+    {
+      "name": "focus",
+      "info": "○○ focusと2単語で使う。その部位のアップ"
+    }
+  ],
+  "lighting": [
+    {
+      "name": "bloom",
+      "info": "明るい自然光"
+    },
+    {
+      "name": "sunlight",
+      "info": "太陽光。屋外になることが多い"
+    },
+    {
+      "name": "dappled sunlight",
+      "info": "木漏れ日。木の下になる"
+    },
+    {
+      "name": "moonlight",
+      "info": "月明かり"
+    },
+    {
+      "name": "darkness",
+      "info": "発光体なし。そこまで暗くはならない"
+    },
+    {
+      "name": "hard shadows",
+      "info": "くっきりとした影"
+    },
+    {
+      "name": "studio lighting",
+      "info": "撮影現場風。背景がシンプルになる"
+    },
+    {
+      "name": "specular lighting",
+      "info": "被写体から光が反射するように"
+    },
+    {
+      "name": "backlighting",
+      "info": "後ろからの光"
+    },
+    {
+      "name": "sidelighting",
+      "info": "横からの光"
+    },
+    {
+      "name": "underlighting",
+      "info": "低い位置からの光"
+    },
+    {
+      "name": "stage light",
+      "info": "舞台上のような強い照明"
+    },
+    {
+      "name": "glowing",
+      "info": "被写体自体が輝くような照明"
     }
   ]
 }

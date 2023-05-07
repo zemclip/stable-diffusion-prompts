@@ -8,7 +8,7 @@
   };
 </script>
 
-<Col xs="6" sm="4" md="3" lg="3" xl="2" class="border-end">
+<Col xs="6" sm="6" md="6" lg="5" xl="4" class="border-end">
   <Styles />
   <Button
     outline
