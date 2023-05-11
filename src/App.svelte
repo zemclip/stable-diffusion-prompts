@@ -1,36 +1,48 @@
 <script>
   import topBanar from "./assets/star-banar.png";
   import bottomBanar from "./assets/nature-banar.png";
-  import contents from "./assets/content.json";
-  import { Navbar, Accordion, AccordionItem, Row, Col } from "sveltestrap";
-  import CopyableText from "./lib/CopyableText.svelte";
+  import {
+    Navbar,
+    Container,
+    Collapse,
+    Button,
+    ButtonToolbar,
+    Icon,
+    Styles,
+  } from "sveltestrap";
+  import Router from "svelte-spa-router";
+  import Prompts from "./pages/Prompts.svelte";
+
+  const routes = {
+    "/prompts": Prompts,
+  };
+
+  let isOpen = false;
+  const handleUpdate = (event) => {
+    isOpen = event.detail;
+  };
 </script>
 
+<Styles />
 <header>
   <Navbar style="background-image: url({topBanar})">
-    <h1 class="text-light">Stable Diffusion Prompts</h1>
+    <Button outline light on:click={() => (isOpen = !isOpen)}>
+      <Icon name="justify" />
+    </Button>
+    <h1 class="text-light">Stable Diffusion References</h1>
+    <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
+      <Container fluid navbar>
+        <ButtonToolbar>
+          <Button href="#/prompts">prompt reference</Button>
+          <Button href="#">model reference</Button>
+        </ButtonToolbar>
+      </Container>
+    </Collapse>
   </Navbar>
 </header>
 
 <main>
-  <Row class="mb-5">
-    <Col xs="12" sm="10" md="9" lg="8" xl="7" class="d-block mx-auto">
-      <Accordion stayOpen color="dark" class="mb-5">
-        {#each Object.keys(contents) as key}
-          <AccordionItem header={key}>
-            {#each contents[key] as prompt, index}
-              <Row
-                class="border-top align-items-center 
-            {contents[key].length - 1 === index ? 'border-bottom' : ''}"
-              >
-                <CopyableText {...prompt} />
-              </Row>
-            {/each}
-          </AccordionItem>
-        {/each}
-      </Accordion>
-    </Col>
-  </Row>
+  <Router {routes} />
 </main>
 
 <footer>

@@ -1,5 +1,5 @@
 <script>
-  import { Button, Icon, Styles, Col } from "sveltestrap";
+  import { Button, Icon, Col } from "sveltestrap";
   export let name;
   export let info;
 
@@ -9,7 +9,6 @@
 </script>
 
 <Col xs="6" sm="6" md="6" lg="5" xl="4" class="border-end">
-  <Styles />
   <Button
     outline
     on:click={copyPrompt}
