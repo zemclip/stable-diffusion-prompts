@@ -1,6 +1,8 @@
 <script>
   import topBanar from "./assets/star-banar.png";
   import bottomBanar from "./assets/nature-banar.png";
+  import Router from "svelte-spa-router";
+  import Prompts from "./pages/Prompts.svelte";
   import {
     Navbar,
     Container,
@@ -10,8 +12,6 @@
     Icon,
     Styles,
   } from "sveltestrap";
-  import Router from "svelte-spa-router";
-  import Prompts from "./pages/Prompts.svelte";
 
   const routes = {
     "/prompts": Prompts,

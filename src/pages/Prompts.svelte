@@ -1,7 +1,17 @@
 <script>
   import contents from "../assets/content.json";
-  import { Accordion, AccordionItem, Row, Col } from "sveltestrap";
-  import CopyableText from "../lib/CopyableText.svelte";
+  import {
+    Accordion,
+    AccordionItem,
+    Row,
+    Col,
+    Table,
+    Column,
+    Button,
+    Icon,
+  } from "sveltestrap";
+
+  import "../assets/custom.css";
 </script>
 
 <Row class="mb-5">
@@ -9,14 +19,30 @@
     <Accordion stayOpen color="dark" class="mb-5">
       {#each Object.keys(contents) as key}
         <AccordionItem header={key}>
-          {#each contents[key] as prompt, index}
-            <Row
-              class="border-top align-items-center 
-              {contents[key].length - 1 === index ? 'border-bottom' : ''}"
+          <Table
+            rows={contents[key]}
+            let:row
+            bordered
+            striped
+            class="hidden-footer"
+          >
+            <Column
+              class="col-6 col-sm-6 col-md-6 col-lg-5 col-xl-4"
+              header="prompt"
             >
-              <CopyableText {...prompt} />
-            </Row>
-          {/each}
+              <Button
+                outline
+                on:click={() => navigator.clipboard.writeText(row.name)}
+                style="border-color:transparent; background:transparent; color:initial"
+              >
+                <Icon name="clipboard-plus" />
+                {row.name}
+              </Button>
+            </Column>
+            <Column class="col-auto" header="information">
+              {row.info}
+            </Column>
+          </Table>
         </AccordionItem>
       {/each}
     </Accordion>
