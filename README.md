@@ -1,2 +1,2 @@
-# stable-diffusion-prompts
-Stable Diffusionの個人的プロンプト集
+# stable-diffusion-references
+Stable Diffusionの個人的参照まとめ
