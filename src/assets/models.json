@@ -1,0 +1,146 @@
+[
+  {
+    "id": "S001",
+    "name": "abyssorangemix3AOM3_aom3a1b",
+    "url": "https://civitai.com/models/9942/abyssorangemix3-aom3",
+    "images": [
+      {
+        "attributes": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, color illustration",
+        "path": "../assets/images/S001/001.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          7,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, photoreal",
+        "path": "../assets/images/S001/002.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, potrait, color illustration",
+        "path": "../assets/images/S001/003.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          7,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, photoreal",
+        "path": "../assets/images/S001/004.png"
+      }
+    ],
+    "safe": true
+  },
+  {
+    "id": "S002",
+    "name": "aurora_v10",
+    "url": "https://civitai.com/models/40199/aurora",
+    "images": [
+      {
+        "attributes": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, color illustration",
+        "path": "../assets/images/S002/001.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          7,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, photoreal",
+        "path": "../assets/images/S002/002.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, potrait, color illustration",
+        "path": "../assets/images/S002/003.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          7,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, photoreal",
+        "path": "../assets/images/S002/004.png"
+      }
+    ],
+    "safe": true
+  },
+  {
+    "id": "N001",
+    "name": "3moonNIAni_3moonNIAni",
+    "url": "https://civitai.com/models/21161/3moon-niani",
+    "images": [
+      {
+        "attributes": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, color illustration",
+        "path": "../assets/images/N001/001.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          7,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, photoreal",
+        "path": "../assets/images/N001/002.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          6,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, potrait, color illustration",
+        "path": "../assets/images/N001/003.png"
+      },
+      {
+        "attributes": [
+          0,
+          2,
+          7,
+          8
+        ],
+        "prompt": "a man, 18 years old, ordinary person, full body, photoreal",
+        "path": "../assets/images/N001/004.png"
+      }
+    ],
+    "safe": false
+  }
+]
